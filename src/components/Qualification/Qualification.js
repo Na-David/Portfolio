@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import "./Qualification.css";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggle, setToggle] = useState(1);
 
   const toggleTab = (index) => {
-    setToggleState(index);
+    setToggle(index);
   };
 
   return (
@@ -17,7 +17,7 @@ const Qualification = () => {
         <div className="qualification__tabs"> 
           <div
             className={
-              toggleState === 1
+              toggle === 1
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
@@ -29,7 +29,7 @@ const Qualification = () => {
 
           <div
             className={
-              toggleState === 2
+              toggle === 2
                 ? "qualification__button qualification__active button--flex"
                 : "qualification__button button--flex"
             }
@@ -43,7 +43,7 @@ const Qualification = () => {
         <div className="qualification__sections">
           <div
             className={
-              toggleState === 1
+              toggle === 1
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
@@ -122,7 +122,7 @@ const Qualification = () => {
 
           <div
             className={
-              toggleState === 2
+              toggle === 2
                 ? "qualification__content qualification__content-active"
                 : "qualification__content"
             }
