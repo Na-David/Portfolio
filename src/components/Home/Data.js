@@ -12,8 +12,8 @@ const Data = () => {
       </p>
 
       <a href='#contact' className='button button--flex'>
-        Say Hello :D
-      </a><i className='uil uil-message nav__icon'></i>
+        Say Hello　<i className='uil uil-message nav__icon'></i>
+      </a>
     </div>
   )
 }
