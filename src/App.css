@@ -111,7 +111,7 @@ img {
   align-items: center;
 }
 
-/*=============== BREAKPOINTS ===============*/
+/*=============== BREAKPOINTS =============== MediaQuery*/
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
