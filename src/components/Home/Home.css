@@ -191,4 +191,9 @@
       width: 22px;
       height: 22px;
     }
+
+    .home__social {
+        display: flex;
+        flex-direction: column;
+    }
   }
