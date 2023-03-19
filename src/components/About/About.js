@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">Brief introduction</span>
+      <span className="section__subtitle">　</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,7 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            As a Software Development student, I create web pages with React js and small features with C#.
+            {/* As a Software Development student, I create web pages with React js and small features with C#. */}
           </p>
 
           <a download="" href={CV} className="button button--flex">
