@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./About.css";
 import AboutImg from "../../assets/about.jpg";
 import CV from "../../assets/Smith-Cv.pdf";
 import Info from "./Info";
@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
-      <span className="section__subtitle">My introduction</span>
+      <span className="section__subtitle">Brief introduction</span>
 
       <div className="about__container container grid">
         <img src={AboutImg} alt="" className="about__img" />
@@ -17,9 +17,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have years of experience and many clients are happy with the
-            projects carried out.
+            As a Software Development student, I create web pages with React js and small features with C#.
           </p>
 
           <a download="" href={CV} className="button button--flex">
