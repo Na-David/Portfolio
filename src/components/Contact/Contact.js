@@ -1,22 +1,22 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+//   const sendEmail = (e) => {
+//     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_x1hewh5",
-        "template_2ki8hlo",
-        form.current,
-        "vxDcl4UI2jbOQBn6f"
-      )
-      e.target.reset()
-  };
+//     emailjs
+//       .sendForm(
+//         "service_x1hewh5",
+//         "template_2ki8hlo",
+//         form.current,
+//         "vxDcl4UI2jbOQBn6f"
+//       )
+//       e.target.reset()
+//   };
 
   return (
     <section className="contact section" id="contact">
