@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Header.css";
 
 
 const Header = () => {
@@ -11,37 +12,37 @@ const Header = () => {
           <ul className='nav__list grid'>
             <li className='nav__item'>
               <a href='#home' className='nav__link'>
-                <i className='uil uil-home nav__icon'>Home</i>
+                <i className='uil uil-home nav__icon'></i>Home
               </a>
             </li>
 
             <li className='nav__item'>
               <a href='#about' className='nav__link'>
-                <i className='uil uil-user nav__icon'>David</i>
+                <i className='uil uil-user nav__icon'></i>David
               </a>
             </li>
 
             <li className='nav__item'>
               <a href='#skills' className='nav__link'>
-                <i className='uil uil-graduation-cap nav__icon'>Skills</i>
+                <i className='uil uil-graduation-cap nav__icon'></i>Skills
               </a>
             </li>
 
             <li className='nav__item'>
               <a href='#services' className='nav__link'>
-                <i className='uil uil-briefcase-alt nav__icon'>Services</i>
+                <i className='uil uil-briefcase-alt nav__icon'></i>Services
               </a>
             </li>
 
             <li className='nav__item'>
               <a href='#portfolio' className='nav__link'>
-                <i className='uil uil-transaction nav__icon'>Portfolio</i>
+                <i className='uil uil-transaction nav__icon'></i>Portfolio
               </a>
             </li>
 
             <li className='nav__item'>
               <a href='#contact' className='nav__link'>
-                <i className='uil uil-message nav__icon'>Contact</i>
+                <i className='uil uil-message nav__icon'></i>Contact
               </a>
             </li>
           </ul>
