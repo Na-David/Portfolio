@@ -39,7 +39,7 @@ const Header = () => {
 
             <li className='nav__item'>
               <a href='#portfolio' className='nav__link'>
-                <i className='uil uil-transaction nav__icon'></i>Portfolio
+                <i className='uil uil-backpack nav__icon'></i>Portfolio
               </a>
             </li>
 
