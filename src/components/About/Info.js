@@ -15,8 +15,15 @@ const Info = () => {
 
         <h3 className="about__title">Achieved</h3>
         <span className="about__subtitle">
-            New Zealand Diploma in IT Technical Support Level 5<br />
-            New Zealand Diploma in Software Development Level 6
+          <ul>
+            <li>
+            NZ Diploma in IT Technical Support Level 5
+            </li>
+            <li>
+            NZ Diploma in Software Development Level 6
+
+            </li>
+          </ul>
         </span>
       </div>
 
