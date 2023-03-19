@@ -114,7 +114,8 @@
     font-size: 1.25rem;
     color: var(--title-color);
   }
-    /*=============== BREAKPOINTS ===============*/
+  
+  /*=============== BREAKPOINTS ===============*/
   /* For large devices */
   @media screen and (max-width: 992px) {
     .home__content {
@@ -180,8 +181,8 @@
     }
   }
   
- /* For small devices */
- @media screen and (max-width: 350px) {
+  /* For small devices */
+  @media screen and (max-width: 350px) {
     .home__img {
       width: 180px;
       height: 180px;
@@ -190,10 +191,5 @@
     .home__hand {
       width: 22px;
       height: 22px;
-    }
-
-    .home__social {
-        display: flex;
-        flex-direction: column;
     }
   }
