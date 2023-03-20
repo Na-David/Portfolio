@@ -82,28 +82,28 @@ const Contact = () => {
                 type="text"
                 name="name"
                 className="contact__form-input"
-                placeholder="Insert your name"
+                placeholder="Your Name"
               />
             </div>
 
             <div className="contact__form-div">
-              <label className="contact__form-tag">Mail</label>
+              <label className="contact__form-tag">Email</label>
               <input
                 type="email"
                 name="email"
                 className="contact__form-input"
-                placeholder="Insert your email"
+                placeholder="Your email"
               />
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Content</label>
               <textarea
                 name="project"
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Nice to meet you :)"
               ></textarea>
             </div>
 
