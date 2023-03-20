@@ -5,7 +5,7 @@ import { projectsData } from "./Data";
 import { projectsNav } from "./Data";
 
 // import components
-import WorkItems from "./WorkItems";
+import WorkItems from "./WorksItems";
 
 const Projects = () => {
   const [item, setItem] = useState({ name: "all" });
