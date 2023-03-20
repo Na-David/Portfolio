@@ -4,7 +4,7 @@ import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
-
+// Email JS
   const sendEmail = (e) => {
     e.preventDefault();
 
