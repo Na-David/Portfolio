@@ -89,3 +89,30 @@
     }
   }
   
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .work__container {
+      grid-template-columns: max-content;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .work__container {
+      grid-template-columns: 1fr;
+    }
+  
+    .work__img {
+      width: 100%;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .work__item {
+      font-size: var(--small-font-size);
+    }
+  
+    .work__filters {
+      column-gap: 0.25rem;
+    }
+  }
