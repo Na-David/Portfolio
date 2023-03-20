@@ -1,22 +1,22 @@
 import React, { useRef } from "react";
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
 
-//   const sendEmail = (e) => {
-//     e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-//     emailjs
-//       .sendForm(
-//         "service_x1hewh5",
-//         "template_2ki8hlo",
-//         form.current,
-//         "vxDcl4UI2jbOQBn6f"
-//       )
-//       e.target.reset()
-//   };
+    emailjs
+      .sendForm(
+        "service_h7r6b7d",
+        "template_7z4exnt",
+        form.current,
+        "K30Nz3IYyX7PrIJqI"
+      )
+      e.target.reset()
+  };
 
   return (
     <section className="contact section" id="contact">
@@ -32,7 +32,7 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">hna206@naver.com</span>
+              <span className="contact__card-data">0206hna@gmail.com</span>
 
               <a
                 href="mailto:hna206@naver.com.com"
