@@ -50,7 +50,7 @@ const Projects = () => {
       {/* projects */}
       <div className="work__container container grid">
         {projects.map((item) => {
-          return <WorkItems item={item} key={item.id} />;
+          return <WorkItems item={item} key={item.id} url={["https://github.com/Na-David/Matrix-Calculator","https://github.com/Na-David/NZ_Tax_Calculator_ICT627","https://dvid-mydiary.web.app/","https://na-david.github.io/Movie-Web/"]} />;
         })}
       </div>
     </div>
