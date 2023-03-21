@@ -1,8 +1,7 @@
 import Work1 from "../../assets/matrix.jpg";
 import Work2 from "../../assets/tax_rate.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+import Work3 from "../../assets/diary.jpg";
+
 
 export const projectsData = [
   {
@@ -14,27 +13,27 @@ export const projectsData = [
   {
     id: 2,
     image: Work2,
-    title: "App movil",
+    title: "Tax Calculator",
     category: "C#",
   },
   {
     id: 3,
     image: Work3,
-    title: "Brand design",
-    category: "design",
-  },
-  {
-    id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "app",
-  },
-  {
-    id: 5,
-    image: Work5,
-    title: "Web design",
-    category: "web",
-  },
+    title: "Diary",
+    category: "React",
+   },
+  // {
+  //   id: 4,
+  //   image: Work4,
+  //   title: "App movil",
+  //   category: "app",
+  // },
+  // {
+  //   id: 5,
+  //   image: Work5,
+  //   title: "Web design",
+  //   category: "web",
+  // },
 ];
 
 // projects
@@ -43,12 +42,12 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "web",
+    name: "React",
   },
   {
-    name: "app",
+    name: "C#",
   },
-  {
-    name: "design",
-  },
+  // {
+  //   name: "design",
+  // },
 ];
