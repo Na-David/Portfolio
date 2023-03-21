@@ -12,10 +12,10 @@ const WorkItems = ({ item }) => {
             <i className="uil uil-arrow-right services__button-icon"></i>
       </span> */}
 
-      {/* <a href="{item.url}" className="work__button">
+      <a href={item.url} className="work__button">
         More
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
-      </a> */}
+      </a>
     </div>
   );
 };
