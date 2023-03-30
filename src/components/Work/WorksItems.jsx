@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import Detail from "./Detail";
+import React from "react";
+// import Detail from "./Detail";
 
 const WorkItems = ({ item }) => {
   
