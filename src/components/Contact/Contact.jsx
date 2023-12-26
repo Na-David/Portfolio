@@ -1,21 +1,20 @@
 import React, { useRef } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
-// Email JS
+  // Email JS
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_h7r6b7d",
-        "template_7z4exnt",
-        form.current,
-        "K30Nz3IYyX7PrIJqI"
-      )
-      e.target.reset()
+    emailjs.sendForm(
+      "service_h7r6b7d",
+      "template_7z4exnt",
+      form.current,
+      "K30Nz3IYyX7PrIJqI"
+    );
+    e.target.reset();
   };
 
   return (
@@ -32,12 +31,9 @@ const Contact = () => {
               <i className="bx bx-mail-send contact__card-icon"></i>
 
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">0206hna@gmail.com</span>
+              <span className="contact__card-data">work@davidna.info</span>
 
-              <a
-                href="mailto:0206hna@gmail.com"
-                className="contact__button"
-              >
+              <a href="mailto:work@davidna.info" className="contact__button">
                 　Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -46,13 +42,10 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
-              <h3 className="contact__card-title">WhatsApp</h3>
+              <h3 className="contact__card-title">Mobile</h3>
               <span className="contact__card-data">+64 210-885-4708</span>
 
-              <a
-                href="https://api.whatsapp.com/send?phone=+642108854708&text=Hello, more information!"
-                className="contact__button"
-              >
+              <a href="@" className="contact__button">
                 　Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
