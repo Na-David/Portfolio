@@ -11,10 +11,10 @@ const Qualification = () => {
   return (
     <section className="qualification section">
       <h2 className="section__title">Qualification</h2>
-      <span className="section__subtitle">My personel journey</span>
+      <span className="section__subtitle">My personal journey</span>
 
       <div className="qualification__container container">
-        <div className="qualification__tabs"> 
+        <div className="qualification__tabs">
           <div
             className={
               toggle === 1
@@ -75,9 +75,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">Software Development</h3>
-                <span className="qualification__subtitle">
-                  Diploma at NZSE
-                </span>
+                <span className="qualification__subtitle">Diploma at NZSE</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2020 - 2021
                 </div>
@@ -91,7 +89,7 @@ const Qualification = () => {
                   Bachelor's at AUT
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
 
@@ -100,7 +98,6 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-
 
             <div className="qualification__data">
               <div></div>
@@ -118,7 +115,6 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2023 - ??
                 </div>
               </div> */}
-              
             </div>
           </div>
 
