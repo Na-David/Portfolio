@@ -5,15 +5,16 @@ const Data = () => {
     <div className="home__data">
       <h1 className="home__title">David Na</h1>
       <h3 className="home__subtitle">
-        AUT BCIS <br />
+        Graduated AUT - BCIS <br />
         Software Development
       </h3>
       <p className="home__description">
-        I am a student who has regularly worked with React.js and C# in learning
-        software development. I enjoy programming and have a passion for solving
-        problems with perseverance. Furthermore, I strongly desire to learn new
-        technologies and am highly motivated to put forth the effort required to
-        learn.
+        Throughout my academic journey, I've unearthed a genuine delight in
+        development and problem-solving, fuelling my confidence to approach
+        tasks with enthusiasm and authentic gratification, even in new
+        environments. I eagerly embrace these opportunities, aiming not only for
+        technical proficiency but also to approach projects with passion and
+        genuine enjoyment.
       </p>
 
       <a href="#contact" className="button button--flex">
