@@ -2,7 +2,6 @@ import React from "react";
 // import Detail from "./Detail";
 
 const WorkItems = ({ item }) => {
-  
   return (
     <div className="work__card" key={item.id}>
       <img src={item.image} alt="" className="work__img" />
@@ -13,7 +12,7 @@ const WorkItems = ({ item }) => {
       </span> */}
 
       <a href={item.url} className="work__button">
-        More
+        Explore
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>
     </div>
